@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "cobblepersistence",
+	"version": "1.0.0",
+	"accessWidener": "cobblepersistence.accesswidener",
+	"name": "CobblePersistence",
+	"description": "Mod de persistencia de datos de Minecraft y Cobblemon para Mongo+Redis",
+	"authors": [
+		"PokeSanti"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cobblepersistence/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"diosesmon.cobblepersistence.CobblePersistence"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
